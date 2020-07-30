@@ -1,0 +1,44 @@
+* {
+	box-sizing: : border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	clear: right;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.header {
+	float: right;
+	width: 30%;
+	background-color: red;
+	text-align: center;
+	border: 1px solid black;
+
+}
+
+#header1 {
+	background-color: blue;
+	color: white;
+}
+
+#header2 {
+	background-color: yellow;
+}
+
+.container {
+	display: flex;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.container > div {
+	background-color: gray;
+	border: 2px solid black;
+	margin: 5px;
+	width: 33%;
+}
